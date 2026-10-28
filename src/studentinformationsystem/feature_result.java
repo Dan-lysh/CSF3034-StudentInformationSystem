@@ -18,5 +18,10 @@ public class feature_result {
          int totalMark = mark1 + mark2;             // calculate the total mark
     
          System.out.println("The total mark is : " + totalMark);   // display the total mark
-     }
+         
+         if (totalMark >= 90) 
+         {
+             System.out.println("Excellent");                      // display the excellent to above 90 mark
+         }
+    }
 } // program ends
